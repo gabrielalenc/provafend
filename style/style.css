@@ -3,12 +3,13 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(150deg, #571216 -50%, #000000 100%);
 
 }
 
 
 .logo {
-    background-color:transparent;
+    background-color: transparent;
     padding: 15px 15px;
 }
 
@@ -24,21 +25,26 @@ body {
 }
 
 .informe h1 {
-    margin-right: 170px;
-    color: black
+    margin-right: 70px;
+    color: rgb(232, 225, 225);
+    margin-top: 40px;
 }
 
 .descricao {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-right: 280px;
+    margin-right: 300px;
 }
 
 .descricao p {
     font-weight: bold;
-    color: gray;
+    color: #ccc;
+    margin-top: -10px;
+    margin-bottom: 30px;
 }
+
+
 
 .campo {
     justify-content: center;
@@ -48,11 +54,13 @@ body {
 }
 
 .campo input {
-    width: 470px;
-    height: 50px;
-    margin-right: -5px;
+    width: 440px;
+    height: 55px;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid rgba(150, 150, 150, 50%);
+    background-color: rgb(21, 19, 19);
+    font-size: 16px;
+
 }
 
 .botao {
@@ -62,11 +70,12 @@ body {
 }
 
 .botao button {
-    margin-top: 20px;
-    width: 470px;
-    height: 50px;
+    margin-top: 15px;
+    width: 440px;
+    margin-right: 6px;
+    height: 48px;
     border-radius: 5px;
-    background-color: red;
+    background-color: rgb(234, 18, 18);
     border: none;
     color: white;
     font-weight: bold;
@@ -81,10 +90,20 @@ body {
 }
 
 .ajuda p {
-    margin-right: 400px;
-    font-weight: bold;
+    margin-right: 380px;
+    color: rgb(227, 220, 220);
+    margin-top: 40px;
 
 }
+
+.ajuda a {
+    text-decoration: none;
+}
+
+.ajuda img {
+    width: 10px;
+}
+
 
 .final {
     justify-content: center;
@@ -93,13 +112,14 @@ body {
 }
 
 .final p {
-    font-size: 13px;
+    font-size: 14px;
     color: gray;
-    margin-right: 80px;
+    margin-right: 40px;
+    margin-top: 20px;
 }
 
 footer {
-    background-color: rgb(83, 82, 82);
+    background-color: rgb(26, 25, 25);
     padding: 40px 40px;
     color: white;
     margin-top: 200px;
@@ -112,27 +132,49 @@ footer {
 }
 
 .duvidas p {
-margin-right: 700px;
+    margin-right: 600px;
+    color: #ccc;
 }
 
 .links {
     flex-direction: row;
     display: flex;
-    gap: 80px;
-    margin-left: 57px;
+    gap: 140px;
+    margin-left: 110px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #ccc;
+
 }
 
 .links2 {
     flex-direction: row;
     display: flex;
-    gap: 80px;
-    margin-left: 57px;
+    gap: 120px;
+    margin-left: 110px;
+    font-size: 14px;
+}
+
+.links2 a {
+    color: #ccc;
 }
 
 .idioma {
-    margin-left: 60px;
+    margin-top: 20px;
+    margin-left: 110px;
     border: 1px solid white;
-    width: 150px;
-    padding: 5px 5px 5px 5px;
+    width: 200px;
+    height: 30px;
+    padding: 2px 2px 2px 2px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+}
+
+.linha {
+    background-color: red;
 }
